@@ -2,10 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz num
   fb = ""
-  case num
-  when % 3 == 0
+  if num % 3 == 0
     fb += "fizz"
-  when % 5 == 0
+  elsif num % 5 == 0
     fb += "buzz"
+  else nil
   end
 end
