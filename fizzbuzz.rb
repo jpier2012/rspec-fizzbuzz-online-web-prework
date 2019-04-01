@@ -11,6 +11,7 @@ def fizzbuzz num
   if fb == ""
     nil
   end
+  fb
 end
 
 puts fizzbuzz(3)
