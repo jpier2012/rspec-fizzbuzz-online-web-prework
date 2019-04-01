@@ -4,9 +4,12 @@ def fizzbuzz num
   fb = ""
   if num % 3 == 0
     fb += "fizz"
-  elsif num % 5 == 0
+  end
+  if num % 5 == 0
     fb += "buzz"
-  else nil
+  end
+  if fb == ""
+    nil
   end
 end
 
